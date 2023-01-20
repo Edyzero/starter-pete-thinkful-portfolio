@@ -18,6 +18,7 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
   text-align: center;
 }
 
@@ -33,7 +34,7 @@ article {
 }
 
 article div {
-  text-align: center;
+  /* text-align: center; ***removed for proper display in about section */
   width: 100%;
 }
 
@@ -75,4 +76,17 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about-centered{
+  display: flex;
+}
+
+#portfolio{
+  display: flex;
+}
+
+#portfolio section{
+  flex: 1;
+  padding: 10px;
 }
