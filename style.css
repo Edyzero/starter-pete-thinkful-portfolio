@@ -13,13 +13,7 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
-}
-
-/* Header */
-header {
-  display: flex;
-  text-align: center;
+  text-align: center; */
 }
 
 /* Containers */
@@ -52,9 +46,7 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
-  padding-left: 20px;
-}
+
 
 /* Images */
 img {
@@ -89,4 +81,27 @@ hr {
 #portfolio section{
   flex: 1;
   padding: 10px;
+}
+
+header {
+  /* text-align: center; */
+  display: flex;
+  /* border: 10px black solid; */
+  text-align: center;
+}
+header h1{
+  flex: 1;
+  /* border: 10px red solid; */
+  text-align: right;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+nav{
+  /* border: 10px green solid; */
+  flex: 1;
+  padding-top: 40px;
+  text-align: left;
 }
